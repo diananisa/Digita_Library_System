@@ -20,7 +20,7 @@ class PDF extends FPDF
         $this->Cell(0, 10, 'Perpus Canggih - Halaman ' . $this->PageNo(), 0, 0, 'C');
     }
 }
-
+//
 $pdf = new PDF('L', 'mm', 'A5');
 $pdf->AddPage();
 $pdf->SetFont('Arial', '', 12);
